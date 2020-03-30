@@ -5,17 +5,57 @@ body {
 }
 
 .container {
+  box-sizing: border-box;
   margin: 0 auto;
   width: 420px;
+}
+
+.content {
+  margin-right: 10%;
+  margin-left: 2%;
+  display: inline-block;
 }
 
 nav {
+  background-color: #000;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
+  padding: 10px 0 15px 0px;
   width: 420px;
 }
 
+.arrow-left {
+  margin-left: 5%;
+}
+
+.arrow {
+  float: right;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
 .restaurant-list {
-  padding-top: 50px;
+  background-color: #D3D3D3;
+  width: 420px;
+}
+
+.location {
+  border: .5px solid #A9A9A9;
+  padding-left: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+div:hover {
+  background-color:#A9A9A9;
+  } /* mouse over */
+
+.content h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.content h3 {
+  padding-top: 1%;
+  font-size: 13px;
+  color: #000;
 }
